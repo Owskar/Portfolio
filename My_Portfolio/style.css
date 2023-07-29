@@ -1,0 +1,480 @@
+
+
+body{
+
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;   /* It gives the font   */
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin sans', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image: url(first.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+marquee{
+    color: white;
+    background: red;
+    padding: 10px;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+
+}
+button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 35px;
+}
+h3{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 10px 0px 10px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    
+}
+.newsletter form input:last-child{
+    position:absolute;
+  display:inline-block;
+  background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 10px;
+    
+}
+.newsletter form input:last-child:hover{
+    background-color: transparent;
+border: 2px solid #f9004d;
+cursor: pointer;
+    
+}
+
+
+.About{
+    width: 100%;
+    padding: 35px 0px;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.About img{
+    height: auto;
+    width: 430px;
+}
+.About p{
+
+   text-align: justify;
+}
+.About-text{
+    width: 555px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-text h1{
+    color: white;
+    font-size: 60px;
+}
+.me{
+    color: blueviolet;
+}
+.main button{
+    padding: 15px 35px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid violet;
+    background: blueviolet;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-left: 30%;
+}
+.main img{
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+}
+.About-text p{
+    color: azure;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.middle-container{
+    background-color: #000;
+    color: azure;
+    padding-top: 10px;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    padding-bottom: 100px;
+
+}
+
+p{
+    line-height: 2;
+}
+
+.pra{
+    font-size: 2.5rem;
+}
+.profile{
+    margin: 100px 0px;
+}
+.profile img{
+    width: 120px;
+}
+.c{
+    float: left;
+    width:25%;
+    margin-right: 30px;
+}
+.Programmer{
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+
+}
+
+.white-section{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color: azure;
+  }
+  
+  .row {
+   
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+      padding-top: 100px;
+      
+      
+    }
+    .feature-box{
+       
+        height: 360px;
+        width: 335px;
+        padding:  20px 35px;
+        position: relative;
+        margin: auto 100px;
+       
+
+  }
+.feature-box p{
+    color: azure;
+}
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+
+.Qualification{
+    background:black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 55px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 360px;
+    width: 335px;
+    padding:  20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:yellow;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+   
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+background-color: transparent;
+border: 2px solid #f9004d;
+cursor: pointer;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+
+
+
+        
+  
+   
+    .content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+    }
+    .content .top .logo-details:hover{
+    color: #000;
+    cursor: pointer;
+    }
+    
+.foot{
+    background-color: #191919;
+
+}
+
+     .media-icons{
+        display: flex;
+        margin-left: 1100px;
+        padding: 30px;
+        
+        
+        }
+         .media-icons a{
+        height: 40px;
+        width: 40px;
+        margin: 0 8px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        font-size: 17px;
+        text-decoration: none;
+        transition: all 0.4s ease;
+        }
+
+         .media-icons a:nth-child(1){
+        background: #4267B2;
+        }
+         .media-icons a:nth-child(1):hover{
+        color: #4267B2;
+        background: #fff;
+        }
+         .media-icons a:nth-child(2){
+        background: rgb(70, 59, 59);
+        }
+         .media-icons a:nth-child(2):hover{
+        color: black;
+        background: #fff;
+        }
+         .media-icons a:nth-child(3){
+        background: #4267B2;
+        }
+         .media-icons a:nth-child(3):hover{
+        color: #4267B2;
+        background: #fff;
+        }
+         .media-icons a:nth-child(4){
+        background: #1DA1F2;
+        }
+         .media-icons a:nth-child(4):hover{
+        color: #1DA1F2;
+        background: #fff;
+        }
+         .media-icons a:nth-child(5){
+        background: #FF0000;
+        }
+         .media-icons a:nth-child(5):hover{
+        color: #FF0000;
+        background: #fff;
+        }
+        .media-icons  a:nth-child(6){
+            background:#459859 ;
+            
+            }
+             .media-icons  a:nth-child(6):hover{
+            color: #459859;
+            background:white;
+            } 
+           
+    
+        /* link box */
+        .link-boxes{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: left;
+            }
+            .link-boxes .BOX{
+            width: calc(100% / 5 - 10px);
+            }
+           
+            .link-boxes .BOX li{
+            margin: 6px 0;
+            list-style: none;
+            }
+            .link-boxes .BOX li a{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: all 0.4s ease
+            }
+            .link-boxes .BOX li a:hover{
+            opacity: 2;
+            text-decoration: none;
+            }
+            .foot .link-boxes .BOX{
+                
+                display: inline-block;
+          
+                justify-content: space-between;
+               ;
+                margin-top: 20px;
+                }
+            .link_name{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    position: relative;
+                    display: inline-block;
+          
+                }
+                .link_name::before{
+                
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -2px;
+                    height: 2px;
+                    width: 30px;
+                    background: #fff;
+                    }
+
+    
